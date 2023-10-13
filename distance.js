@@ -12,6 +12,6 @@ const distance = (x1, y1, x2, y2) => {
     return distanceX, distanceY
 }
 
-// logging the return of temperature converter function after requesting input:
+// logging the return of distance converter function after requesting input:
 
 console.log(distance(readlineSync.question('X1: '), readlineSync.question('Y1: '), readlineSync.question('X2: '), readlineSync.question('Y2: ')));
