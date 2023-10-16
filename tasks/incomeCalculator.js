@@ -3,8 +3,8 @@ const readlineSync = require('readline-sync');
 const incomeCalculator = (income, losses) => {
     const incomeAr = income.split(" ");
     const lossesAr = losses.split(" ");
-    let incomSum = 0;
-    let lossesSum = 0;
+    var incomSum = 0;
+    var lossesSum = 0;
     for (let i = 0; i < incomeAr.length; i++) {
         incomSum += parseInt(incomeAr[i]);
     };
