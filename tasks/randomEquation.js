@@ -16,6 +16,6 @@ const generateRandomEquation = () => {
     return `${a}x^2 + ${b}x = ${c}`
 }
 
-// logging the return of CAG function after requesting input:
+// logging the return of randomEquation function after requesting input:
 
 console.log(generateRandomEquation());
